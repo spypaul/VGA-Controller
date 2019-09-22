@@ -1,1 +1,3 @@
 # VGA-Controller
+## Describtion
+This school project is codded in Verilog created on the Nexys 4 FPGA. This project involves the usage of the VGA port on the Nexys 4 and the VGA monitor. The switch on the Nexys 4 board will control the overall color of the screen. The challenge of the project is to create proper Vsync and Hsync signal, which include the timing manipulation of the displaying time and the blanking time. There are two signals, Vcoord and Hcoord, tracking each pixel at the proper timing, and the Vsync and the Hsync will be generated accordingly. There are three signals for the color control of the monitor(RGB). With Hcoord and Vcoord, the system can manipulate the color of every pixel on the monitor.
